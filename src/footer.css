@@ -1,0 +1,139 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+
+/* The footer is fixed to the bottom of the page */
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: lightgrey;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.footer-distributed .footer-left{
+	width: 25%;
+}
+
+
+.footer-distributed .footer-left img{
+	width: 200px;
+	height: 200px;
+	padding-left: 10px;
+}
+.footertext{
+	align-items: center;
+}
+.footer-distributed .footer-center{
+	width: 50%;
+}
+.footer-distributed .footer-center .footer-company-name{
+	color:  grey;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	text-align: left;
+	position: relative;
+	display: block;
+}
+ul{
+	list-style: none;
+}
+
+li{
+	color: grey;
+}
+
+
+
+.footer-distributed .footer-right{
+	width: 25%;
+}
+
+
+
+.copyright p{
+	margin-top: 500px;
+}
+
+.footer-right-span{
+	color:  #FC4C02;
+	font-size: 48px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+
+.social-link{
+	margin: 0 10%;
+	width: 60%;
+	font-size: 48px;
+	text-align: center;
+	float: right;
+}
+
+.social-link  .fa-facebook-square {
+  color: #3b5998;
+}
+
+.social-link .fa-instagram{
+	color: white;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+     /* -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent; */
+}
+
+.social-link .fa-linkedin-square{
+	color: #0976b4;
+}
+
+.social-link .fa-twitter-square{
+	color: #55acee;
+}
+
+
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+
+}

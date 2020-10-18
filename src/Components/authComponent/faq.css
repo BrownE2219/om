@@ -1,0 +1,46 @@
+.questions{
+	position:absolute;
+	padding:3%;
+	width:80%;
+	font-size:20px;
+	margin-left:8%;
+	color:black;
+	box-shadow: 5px 5px 5px 5px #eeeeee;
+}
+
+
+
+.accordion{
+background-color:#FC6100;
+color:#black;
+cursor:pointer;
+padding:18px;
+width:100%;
+margin-top:5px;
+margin-bottom:5px;
+text-align:left;
+outline:none;
+transition:0.4s;
+font-size:15px;
+}
+
+.active, .accordion:hover{
+background-color: #FC6100;
+}
+.accordion:after{
+content:'\002B';
+color:black;
+font-weight:bold;
+float:right;
+margin-left:5px;
+}
+.active:after{
+content:"\2212";
+}
+.panel{
+padding:0,18px;
+background-color:#ffffff;
+max-height:0;
+overflow:hidden;
+transition: max-height 0.2s ease-out;
+}

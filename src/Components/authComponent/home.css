@@ -1,0 +1,224 @@
+
+
+.banner {
+	background: #FC4C02;
+	position: relative;
+}
+
+.banner .banner-text {
+	position: relative;
+	text-align: center;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	top:50%;
+	color: white;
+	font-size: 24px;
+}
+
+.banner .banner-text h3{
+	color: black;
+	font-size: 40px;
+	line-height: 120%;
+}
+
+.work{
+	padding-left: 10%;
+	padding-right: 10%;
+	margin: 0 -5px;
+
+}
+.work .abc{
+	position: relative;
+	text-align: center;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	font-size: 40px;
+}
+
+.work p{
+	text-align: center;
+	font-size: 15px;
+	color: grey;
+  text-align: center;
+}
+
+.work:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.work .column {
+  float: left;
+  width: 33.3%;
+  padding-left: 5%;
+}
+
+.work .column .card {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: white;
+}
+
+.work .column .card .circle-text{
+	text-align: center;
+	line-height: 300%;
+}
+
+.work .cir{
+  /* padding-right: 40%; */
+  /* padding-left: 40%; */
+  text-align: -webkit-center;
+}
+/* .circle-text{
+  margin-left: 2%;
+} */
+.circle {
+        border-radius: 100%;
+        width: 60px;
+        height: 60px;
+        padding: 20px;
+        background: lightgrey;
+        color: grey;
+        text-align: justify;
+        font: 20px Arial, sans-serif;
+}
+
+ .column-button{
+	width: 80%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-left: 10%;
+}
+
+ /*.column-button:hover{
+	background-color: #101010;
+}*/
+
+ .column-button .donor-button{
+    background-color: #000020;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 12%;
+    cursor: pointer;
+}
+
+ .column-button .patient-button{
+	float: right;
+  background-color: #000020;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+
+
+.exp h1{
+	position: relative;
+	text-align: center;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	font-size: 40px;
+}
+.exp{
+	padding-left: 10%;
+	padding-right: 10%;
+	margin: 0 -5px;
+}
+
+.exp .column {
+  float: left;
+  width: 33.3%;
+  padding-left: 5%;
+}
+
+
+
+.exp:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.exp .exp-col{
+	padding: 10px 10px;
+}
+
+.exp .column .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: white;
+  color: grey;
+}
+
+.card-img img
+{
+	border-radius: 50%;
+	width: 40%;
+	height: 40%;
+}
+
+.horizontal
+{
+  margin: 5% auto;
+  width: 80%;
+  color: grey;
+  background-color: grey;
+  text-align: center;
+  height: 0.3rem;
+
+}
+
+.exp .card-text{
+	text-align: justify;
+	font-size: 15px;
+	padding-top: 10%;
+}
+
+.detail{
+	line-height: 180%;
+	text-align: justify-all;
+}
+
+.detail .detail-name{
+	font-size: 100%;
+	color: black;
+
+}
+.detail-email{
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .exp .column ,.work .column {
+        width: 100%;
+        text-align: -webkit-center;
+        display: block;
+        margin-bottom: 10px;
+  }
+  .exp .detail{
+  	font-size: 14px;
+  }
+.column-button{
+	  padding-left: 10%;
+}
+}

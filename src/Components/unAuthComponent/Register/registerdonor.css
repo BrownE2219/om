@@ -1,0 +1,171 @@
+.donorform{
+	position: relative;
+	left:30%;
+	width:40%;
+	color:black;
+	box-shadow: 5px 5px 5px 5px #eeeeee;
+	padding: 3% 3%;
+}
+.donorh1{
+	text-align: center;
+	padding-bottom: 8%;
+	color:tomato;
+}
+.switch{
+	font-size: 20px;
+	font-weight:bold;
+	color:white;
+	background:tomato;
+	border-radius: 4px;
+	border: 1px solid black;
+	width:50%;
+	height: 65px;
+	cursor: pointer;
+}
+.form-card{
+	margin-top: 5%;
+}
+
+.form-card:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+table{
+  width:90%;
+  margin-left:5%;
+	margin-top: 5%;
+	border-spacing:0 10px;
+}
+.labeltd{
+  width:30%;
+  margin-top: 5%;
+
+}
+.inputtd{
+  width:70%;
+}
+label{
+	margin-top:5%;
+	margin-bottom:1%;
+	margin-left:5%;
+	float: left;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.inputs
+{
+	margin-left:5%;
+	border-radius: 7px;
+	border: 2px solid tomato;
+	width:90%;
+	height: 50px;
+	text-align:left;
+	padding: 0 3%;
+}
+.tableinputs
+{
+	margin-left:5%;
+	border-radius: 7px;
+	border: 2px solid tomato;
+	width:80%;
+	height: 50px;
+	text-align:left;
+	padding: 0 3%;
+}
+
+.bglabel{
+	margin-top:8%;
+}
+
+
+.aglabel{
+	margin-top:8%;
+}
+
+.clabel{
+	margin-top:8%;
+}
+.pclabel{
+	margin-top:8%;
+}
+
+.gnlabel{
+	margin-top:8%;
+}
+
+
+.donornop{
+	position:absolute;
+	margin-left:60%;
+	margin-top:5%;
+}
+.donoryesp{
+	position: absolute;
+	    margin-left: 10%;
+	    margin-top: 5%;
+}
+.reportdate{
+	margin-top:15%;
+}
+
+input[type="checkbox"]{
+	width:20px;
+}
+.donorbutton
+{
+	font-size: 20px;
+	font-weight:bold;
+	color:white;
+	margin:0% 5%;
+	background:tomato;
+	border-radius: 4px;
+	border: 1px solid black;
+	width:90%;
+	height: 65px;
+	cursor: pointer;
+}
+.donortc{
+	position: relative;
+	    left: 5%;
+	    margin-top: 10%;
+}
+
+.std{
+	color:#FC6100;
+	font-weight: bold;
+}
+.notaDonor{
+	text-align: center;
+	margin-top: 5%;
+	font-weight: bold;
+
+}
+@media only screen and (max-width: 600px) {
+.donorform{
+	position:relative;
+	left:10%;
+	width:80%;
+	color:black;
+	box-shadow: 5px 5px 5px 5px #eeeeee;
+	padding-bottom:10px;
+}
+.donorh1{
+	color:tomato;
+}
+
+.reportdate{
+	margin-top:20%;
+}
+.donornop{
+	    margin-top: 15%;
+}
+.donoryesp {
+	margin-top: 15%;
+	margin-left: 5%;
+}
+.donorc{
+	margin-top:50%;
+	margin-left:15%;
+}
+}
